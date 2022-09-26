@@ -40,6 +40,7 @@ public class Basics {
          */
         System.out.println(7 + 5);
 
+        System.out.println("Hello World!");
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
@@ -58,6 +59,7 @@ public class Basics {
          *    (Relevant reading: 1.2. Variables and Types)
          */
 
+        int my_variable = 100;
         /*
          * TODO (Task 2): Create a variable named my_variable and assign it the
          *                value 100.
@@ -87,6 +89,9 @@ public class Basics {
          *    (Relevant reading: 1.8.2. for Loops)
          */
 
+        for (int i = 10; i >= 0; i--) {
+            System.out.println("Current count: " + i);
+        }
         /*
          * TODO (Task 3): Create a for-loop that loops from 10 to 0, printing
          *                the following at each iteration:
